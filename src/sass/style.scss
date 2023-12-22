@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/font';
+
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/heading';
+@import 'blocks/span';
