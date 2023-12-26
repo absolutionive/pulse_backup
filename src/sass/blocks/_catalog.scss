@@ -1,0 +1,32 @@
+.catalog {
+    &__tabs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    &__tab {
+        margin: 0 5px;
+        border: 2px solid #D0D0D0;
+        width: 223px;
+        height: 52px;
+        color: #6B6B6B;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 48px;
+        transform: skewX(-25deg);
+        &:hover {
+            box-shadow: 3px 3px 20px #C70101;
+        }
+        &_active {
+            color: #fff;
+            background-color: #C70101;
+            border: none;
+        }
+        div {
+            transform: skewX(25deg);
+        }
+    }
+}

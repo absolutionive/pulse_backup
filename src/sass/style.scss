@@ -4,15 +4,14 @@
 }
 
 .container {
-    width: 1140px;
+    width: 950px;
     margin: 0 auto;
 }
 
 @import 'base/variables';
 @import 'base/mixins';
 
-
-@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/animate';
 @import 'libs/font';
 
 
@@ -20,6 +19,11 @@
 @import 'blocks/header';
 @import 'blocks/advantages';
 @import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
 @import 'blocks/buttons';
 @import 'blocks/heading';
+@import 'blocks/subheading';
 @import 'blocks/span';
+@import 'blocks/pageup';
